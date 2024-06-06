@@ -28,8 +28,7 @@ public class MenuScript : MonoBehaviour
         }
         else if (Input.anyKey)
         {
-            video.gameObject.SetActive(true);
-           // SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+            SceneManager.LoadScene("Level1", LoadSceneMode.Single);
 
             Debug.Log("Next Scene.");
         }
