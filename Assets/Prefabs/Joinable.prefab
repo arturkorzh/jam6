@@ -254,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 1767707125653994648}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Name
-      value: JoinableBlock
+      value: JoinableBlock5
       objectReference: {fileID: 0}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Layer
@@ -345,7 +345,7 @@ PrefabInstance:
       objectReference: {fileID: 1767707125653994648}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Name
-      value: JoinableBlock
+      value: JoinableBlock2
       objectReference: {fileID: 0}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Layer
@@ -436,7 +436,7 @@ PrefabInstance:
       objectReference: {fileID: 1767707125653994648}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Name
-      value: JoinableBlock
+      value: JoinableBlock3
       objectReference: {fileID: 0}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Layer
@@ -527,7 +527,7 @@ PrefabInstance:
       objectReference: {fileID: 1767707125653994648}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Name
-      value: JoinableBlock
+      value: JoinableBlock1
       objectReference: {fileID: 0}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Layer
@@ -618,7 +618,7 @@ PrefabInstance:
       objectReference: {fileID: 1767707125653994648}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Name
-      value: JoinableBlock
+      value: JoinableBlock4
       objectReference: {fileID: 0}
     - target: {fileID: 9007752020580008645, guid: 6fb84916880de1442ba2de35ac91139f, type: 3}
       propertyPath: m_Layer

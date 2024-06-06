@@ -6,12 +6,10 @@ public class JoinToPlayerController : MonoBehaviour
 
   private const float Threshold = 0.2f;
   
-  private int _playerLayer;
   private int _joinableLayer;
 
   private void Awake()
   {
-    _playerLayer = LayerMask.NameToLayer("Player");
     _joinableLayer = LayerMask.NameToLayer("Joinable");
   }
 
@@ -23,31 +21,23 @@ public class JoinToPlayerController : MonoBehaviour
     TryJoinToPlayer(other.gameObject);
   }
 
-  private void OnTriggerStay2D(Collider2D other)
-  {
-    if (IsNotJoinable(other.gameObject))
-      return;
-
-    TryJoinToPlayer(other.gameObject);
-  }
-
   private void TryJoinToPlayer(GameObject go)
   {
-    var element = GetElementToJoinFrom(go.GetComponent<JoinableView>());
-    if (element == null)
+    var closestPair = GetElementToJoinFrom(go.GetComponent<JoinableView>());
+    if (!closestPair.HasValue)
       return;
     
-    _player.Elements.AddRange(element.Parent.Elements);
-    element.Parent.JoinToPlayer(_playerLayer);
-    element.Parent.transform.SetParent(_player.transform);
+    _player.Elements.AddRange(closestPair.Value.Element.Parent.Elements);
+    closestPair.Value.Element.Parent.JoinToPlayer(closestPair.Value);
+    closestPair.Value.Element.Parent.transform.SetParent(_player.transform);
   }
 
   private bool IsNotJoinable(GameObject other) =>
     other.layer != _joinableLayer;
 
-  private JoinableElementView GetElementToJoinFrom(JoinableView joinCandidate)
+  private (JoinableElementView Element, JoinableElementView PlayerElement)? GetElementToJoinFrom(JoinableView joinCandidate)
   {
-    (JoinableElementView Element, float Distance) closest = default;
+    (JoinableElementView Element, JoinableElementView PlayerElement, float Distance) closest = default;
 
     foreach (var playerElement in _player.Elements)
     {
@@ -55,10 +45,10 @@ public class JoinToPlayerController : MonoBehaviour
       {
         var curDistance = (playerElement.transform.position - element.transform.position).magnitude;
         if (closest.Element == null || curDistance < closest.Distance)
-          closest = (element, curDistance);
+          closest = (element, playerElement, curDistance);
       }
     }
     
-    return closest.Element != null && closest.Distance < Threshold ? closest.Element : null;
+    return closest.Element != null && closest.Distance < Threshold ? (closest.Element, closest.PlayerElement) : null;
   }
 }
