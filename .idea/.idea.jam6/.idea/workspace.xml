@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01 SDF.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01 SDF.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01.OTF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01.OTF.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableElementView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +23,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c77f0cfb8c8749918602f6f7dc15c51620a00/40/4ed10517/Rigidbody2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb81df0c49c643b1a04d9fc6ccca2433175400/a6/d26d6451/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/8b/3a17c4df/Collision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/c7/1b80833c/ContactPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/TestScene_Profiles/Main Camera Profile.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/Main.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
@@ -110,5 +122,24 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/actors/JoinableView.cs</url>
+          <line>30</line>
+          <properties documentPath="D:\jam6\Assets\Scripts\actors\JoinableView.cs" initialLine="30" containingFunctionPresentation="Method 'JoinToPlayer'">
+            <startOffsets>
+              <option value="543" />
+            </startOffsets>
+            <endOffsets>
+              <option value="566" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
