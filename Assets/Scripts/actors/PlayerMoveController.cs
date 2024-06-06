@@ -13,6 +13,6 @@ public class PlayerMoveController : MonoBehaviour
     private void FixedUpdate()
     {
         var to = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-        _body.velocity = to * _speedCoef;
+        _body.MovePosition(transform.position + to * Time.deltaTime * _speedCoef);
     }
 }
