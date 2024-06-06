@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01 SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01 SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01.OTF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AMERICAN CAPTAIN PATRIUS 01.OTF.meta" afterDir="false" />
+    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="text color changed">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableElementView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableElementView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +20,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/8b/3a17c4df/Collision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/c7/1b80833c/ContactPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/StartScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/StartScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/TestScene_Profiles/Main Camera Profile.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scripts/Main.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinableElementView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -111,6 +112,23 @@
       <updated>1717668833418</updated>
       <workItem from="1717668835313" duration="4808000" />
     </task>
+    <task id="LOCAL-00001" summary="font added">
+      <option name="closed" value="true" />
+      <created>1717676488572</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717676488572</updated>
+    </task>
+    <task id="LOCAL-00002" summary="text color changed">
+      <option name="closed" value="true" />
+      <created>1717676547932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717676547932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +139,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="font added" />
+    <MESSAGE value="text color changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="text color changed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
