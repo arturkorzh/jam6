@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class MenuScript : MonoBehaviour
 {
+    public VideoPlayer video;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +28,8 @@ public class MenuScript : MonoBehaviour
         }
         else if (Input.anyKey)
         {
-            SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+            video.gameObject.SetActive(true);
+           // SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
 
             Debug.Log("Next Scene.");
         }

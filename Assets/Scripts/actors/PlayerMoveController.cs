@@ -3,13 +3,13 @@ using UnityEngine;
 public class PlayerMoveController : MonoBehaviour
 {
     private Rigidbody2D _body;
-    private float _speedCoef = 0.75f;
+    private float _speedCoef = 0.75f * 8;
 
     private void Start()
     {
         _body = GetComponent<Rigidbody2D>();
     }
-    
+
     private void FixedUpdate()
     {
         var to = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
