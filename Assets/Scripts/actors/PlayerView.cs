@@ -2,8 +2,15 @@ using UnityEngine;
 
 public class PlayerView : MonoBehaviour
 {
+  public static PlayerView Instance;
+  
   [SerializeField] private JoinableView _joinable;
 
+  private void Awake()
+  {
+    Instance = this;
+  }
+  
   private void OnEnable()
   {
     EventManager.OnPlayerGetDamage += ApplyDamage;
