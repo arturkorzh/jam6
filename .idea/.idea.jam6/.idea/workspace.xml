@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="text color changed">
+    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="camera script added">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StartScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/actors/JoinToPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/actors/JoinToPlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/8b/3a17c4df/Collision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/c7/1b80833c/ContactPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scenes/StartScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/StartScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/StartScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
@@ -91,10 +93,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15088">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="15088" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -128,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717676547932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="camera script added">
+      <option name="closed" value="true" />
+      <created>1717677475468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717677475468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,23 +151,50 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="font added" />
     <MESSAGE value="text color changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="text color changed" />
+    <MESSAGE value="camera script added" />
+    <option name="LAST_COMMIT_MESSAGE" value="camera script added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/actors/JoinableView.cs</url>
-          <line>30</line>
-          <properties documentPath="D:\jam6\Assets\Scripts\actors\JoinableView.cs" initialLine="30" containingFunctionPresentation="Method 'JoinToPlayer'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
+          <line>65</line>
+          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="66" containingFunctionPresentation="Method 'CheckWinCondition'">
             <startOffsets>
-              <option value="543" />
+              <option value="1611" />
             </startOffsets>
             <endOffsets>
-              <option value="566" />
+              <option value="1623" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
+          <line>45</line>
+          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="45" containingFunctionPresentation="Method 'CheckWinCondition'">
+            <startOffsets>
+              <option value="1043" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1146" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
+          <line>46</line>
+          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="46" containingFunctionPresentation="Method 'CheckWinCondition'">
+            <startOffsets>
+              <option value="1155" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1185" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
