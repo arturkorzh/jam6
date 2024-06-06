@@ -5,13 +5,6 @@ public class JoinToPlayerController : MonoBehaviour
   [SerializeField] private JoinableView _player;
 
   private const float Threshold = 0.2f;
-  
-  private int _joinableLayer;
-
-  private void Awake()
-  {
-    _joinableLayer = LayerMask.NameToLayer("Joinable");
-  }
 
   private void OnCollisionEnter2D(Collision2D other)
   {
@@ -33,7 +26,7 @@ public class JoinToPlayerController : MonoBehaviour
   }
 
   private bool IsNotJoinable(GameObject other) =>
-    other.layer != _joinableLayer;
+    other.layer != LayerMasks.Joinable;
 
   private (JoinableElementView Element, JoinableElementView PlayerElement)? GetElementToJoinFrom(JoinableView joinCandidate)
   {

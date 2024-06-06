@@ -66,10 +66,16 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        EventManager.OnLose += LoseGame;
     }
 
     private void Start()
     {
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void LoseGame()
+    {
+        Debug.Log("Lose!");
     }
 }
