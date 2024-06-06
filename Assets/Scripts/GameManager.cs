@@ -47,16 +47,14 @@ public class GameManager : MonoBehaviour
         var minX = temp.Min(x => x.x);
         var minY = temp.Min(x => x.y);
 
-
-        var xSize = temp.Max(x => x.x) - minX;
-        var ySize = temp.Max(x => x.y) - minY;
+        var xSize = temp.Max(x => x.x) - minX + 1;
+        var ySize = temp.Max(x => x.y) - minY + 1;
 
         var matrix = new int[xSize, ySize];
 
-
         foreach (var value in temp)
         {
-            value.x += minX > 0 ? minX : -(minX);
+            value.x += minX > 0 ? minX : -minX;
             value.y += minY > 0 ? minY : -minY;
         }
 

@@ -1,6 +1,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum BlockType
+{
+    S,
+    T,
+    L,
+    I,
+    O,
+}
+
+public enum BuffType
+{
+    Red,
+    Orange,
+    Blue,
+    Green,
+    Yellow,
+    Pink,
+}
+
 public class JoinableView : MonoBehaviour
 {
   private const float Threshold = 0.00001f;
@@ -8,10 +27,13 @@ public class JoinableView : MonoBehaviour
   
   public List<JoinableElementView> Elements;
   
-  private Rigidbody2D _body;
+  public int BlockType = 1;
+  public int BuffType = 1;
 
   private bool _needRemoveBody;
   private Vector3 _offset;
+
+  private Rigidbody2D _body;
   
   private void Awake()
   {
