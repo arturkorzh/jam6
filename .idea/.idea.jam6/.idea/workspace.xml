@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="camera script added">
+    <list default="true" id="f9ead0b6-90fc-4bdc-90c9-428cc34cbd8d" name="Changes" comment="win checker">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/actors/JoinToPlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/actors/JoinToPlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/actors/JoinableView.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +31,17 @@
     <setting file="mock://D:/jam6/Assets/Scenes/TestScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scenes/TestScene_Profiles/Main Camera Profile.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scripts/Main.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MenuScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinToPlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinToPlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinToPlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinToPlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinableElementView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/jam6/Assets/Scripts/actors/JoinableView.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/ProjectSettings/ProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/jam6/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -138,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717677475468</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="win checker">
+      <option name="closed" value="true" />
+      <created>1717684923377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717684923377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,51 +170,7 @@
     <MESSAGE value="font added" />
     <MESSAGE value="text color changed" />
     <MESSAGE value="camera script added" />
-    <option name="LAST_COMMIT_MESSAGE" value="camera script added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
-          <line>65</line>
-          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="66" containingFunctionPresentation="Method 'CheckWinCondition'">
-            <startOffsets>
-              <option value="1611" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1623" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
-          <line>45</line>
-          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="45" containingFunctionPresentation="Method 'CheckWinCondition'">
-            <startOffsets>
-              <option value="1043" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1146" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs</url>
-          <line>46</line>
-          <properties documentPath="D:\jam6\Assets\Scripts\GameManager.cs" initialLine="46" containingFunctionPresentation="Method 'CheckWinCondition'">
-            <startOffsets>
-              <option value="1155" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1185" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="win checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="win checker" />
   </component>
 </project>
