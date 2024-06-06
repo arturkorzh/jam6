@@ -1,0 +1,1144 @@
+Index: Assets/Scripts/GameState.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/GameState.cs.meta b/Assets/Scripts/GameState.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717665567647)
++++ b/Assets/Scripts/GameState.cs.meta	(date 1717665567647)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: c080c90d948f4ccaab3d318d33de6b1c
++timeCreated: 1717665567
+\ No newline at end of file
+Index: .idea/.idea.jam6/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"238e2e13-04d4-4ab3-97ee-c74489b08497\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.idea.jam6/.idea/indexLayout.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.idea.jam6/.idea/projectSettingsUpdater.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.idea.jam6/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/.idea.jam6/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scenes.meta\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scenes/SampleScene.unity\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scripts.meta\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scripts/Main.cs\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Assets/Scripts/Main.cs.meta\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Packages/manifest.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Packages/packages-lock.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/AudioManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/EditorSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/InputManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/MemorySettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/NetworkManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/PresetManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/QualitySettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/TagManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/TimeManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/VFXManager.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/ProjectSettings/XRSettings.asset\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"test-scene-moving\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"MetaFilesCheckinStateConfiguration\" checkMetaFiles=\"true\" />\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"Toolset\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 1\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2hUs6Zfvf2xW0QHQjqntdwJ0Bm7\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;rider.external.source.directories&quot;: [\r\n      &quot;C:\\\\Users\\\\d.zarnytsia\\\\AppData\\\\Roaming\\\\JetBrains\\\\Rider2023.3\\\\resharper-host\\\\DecompilerCache&quot;,\r\n      &quot;C:\\\\Users\\\\d.zarnytsia\\\\AppData\\\\Roaming\\\\JetBrains\\\\Rider2023.3\\\\resharper-host\\\\SourcesCache&quot;,\r\n      &quot;C:\\\\Users\\\\d.zarnytsia\\\\AppData\\\\Local\\\\Symbols\\\\src&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"RunManager\" selected=\"Attach to Unity Editor.Attach to Unity Editor\">\r\n    <configuration name=\"Start Unity\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\r\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.22f1\\Editor\\Unity.exe\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-projectPath D:\\jam6 -debugCodeOptimization\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"D:\\jam6\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unit Tests (batch mode)\" type=\"RunUnityExe\" factoryName=\"Unity Executable\">\r\n      <option name=\"EXE_PATH\" value=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.22f1\\Editor\\Unity.exe\" />\r\n      <option name=\"PROGRAM_PARAMETERS\" value=\"-runTests -batchmode -projectPath D:\\jam6 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"D:\\jam6\" />\r\n      <option name=\"PASS_PARENT_ENVS\" value=\"1\" />\r\n      <option name=\"USE_EXTERNAL_CONSOLE\" value=\"0\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Attach to Unity Editor &amp; Play\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"UNITY_ATTACH_AND_PLAY\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\r\n      <option name=\"allowRunningInParallel\" value=\"false\" />\r\n      <option name=\"listenPortForConnections\" value=\"false\" />\r\n      <option name=\"pid\" />\r\n      <option name=\"projectPathOnTarget\" />\r\n      <option name=\"selectedOptions\">\r\n        <list />\r\n      </option>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Attach to Unity Editor\" type=\"UNITY_DEBUG_RUN_CONFIGURATION\" factoryName=\"Unity Debug\" show_console_on_std_err=\"false\" show_console_on_std_out=\"false\" port=\"50000\" address=\"localhost\">\r\n      <option name=\"allowRunningInParallel\" value=\"false\" />\r\n      <option name=\"listenPortForConnections\" value=\"false\" />\r\n      <option name=\"pid\" />\r\n      <option name=\"projectPathOnTarget\" />\r\n      <option name=\"selectedOptions\">\r\n        <list />\r\n      </option>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"238e2e13-04d4-4ab3-97ee-c74489b08497\" name=\"Changes\" comment=\"\" />\r\n      <created>1717659818932</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1717659818932</updated>\r\n      <workItem from=\"1717659819878\" duration=\"434000\" />\r\n      <workItem from=\"1717660792204\" duration=\"1493000\" />\r\n      <workItem from=\"1717663561511\" duration=\"170000\" />\r\n      <workItem from=\"1717663763694\" duration=\"302000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"UnityCheckinConfiguration\" checkUnsavedScenes=\"true\" />\r\n  <component name=\"UnityProjectConfiguration\" hasMinimizedUI=\"true\" />\r\n  <component name=\"UnityUnitTestConfiguration\" currentTestLauncher=\"Both\" />\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"main\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CLEAR_INITIAL_COMMIT_MESSAGE\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.jam6/.idea/workspace.xml b/.idea/.idea.jam6/.idea/workspace.xml
+--- a/.idea/.idea.jam6/.idea/workspace.xml	(revision 89afd2e2d582ad86a8f96e01e828bc66410a5d93)
++++ b/.idea/.idea.jam6/.idea/workspace.xml	(date 1717670116105)
+@@ -4,42 +4,24 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="238e2e13-04d4-4ab3-97ee-c74489b08497" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/indexLayout.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/projectSettingsUpdater.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scripts.meta" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs.meta" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/MemorySettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/VersionControlSettings.asset" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
++    <list default="true" id="238e2e13-04d4-4ab3-97ee-c74489b08497" name="Changes" comment="entities added">
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Block.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Block.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/BlockProperty.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/BlockProperty.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/BlockType.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/BlockType.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Entity.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Entity.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Player.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enitities/Player.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameState.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameState.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.jam6/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,6 +34,10 @@
+         <entry key="$PROJECT_DIR$" value="test-scene-moving" />
+       </map>
+     </option>
++  </component>
++  <component name="HighlightingSettingsPerFile">
++    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/8b/3a17c4df/Collision.cs" root0="SKIP_HIGHLIGHTING" />
++    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ba076ee65a874bd18a82c57004fe96c51fe00/c7/1b80833c/ContactPoint.cs" root0="SKIP_HIGHLIGHTING" />
+   </component>
+   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+   <component name="ProblemsViewState">
+@@ -133,8 +119,17 @@
+       <workItem from="1717659819878" duration="434000" />
+       <workItem from="1717660792204" duration="1493000" />
+       <workItem from="1717663561511" duration="170000" />
+-      <workItem from="1717663763694" duration="302000" />
++      <workItem from="1717663763694" duration="6339000" />
+     </task>
++    <task id="LOCAL-00001" summary="2d proj updated">
++      <option name="closed" value="true" />
++      <created>1717664134322</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1717664134322</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -183,5 +178,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
++    <MESSAGE value="2d proj updated" />
++    <MESSAGE value="entities added" />
++    <option name="LAST_COMMIT_MESSAGE" value="entities added" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Assets/Scripts/GameState.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/GameState.cs b/Assets/Scripts/GameState.cs
+new file mode 100644
+--- /dev/null	(date 1717667564149)
++++ b/Assets/Scripts/GameState.cs	(date 1717667564149)
+@@ -0,0 +1,19 @@
++using Enitities;
++
++public static class GameState
++{
++    // gameObj 
++    public static Player Player { get; set; }
++
++
++    // Affect player movement
++    public static bool IsDead { get; set; }
++    public static bool IsCollecting { get; set; }
++
++
++    public static float CollectingStartTime { get; set; }
++
++    // Resources
++    public static float Points { get; set; }
++    public static float Coins { get; set; }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/BlockType.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/BlockType.cs.meta b/Assets/Scripts/Enitities/BlockType.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717666015081)
++++ b/Assets/Scripts/Enitities/BlockType.cs.meta	(date 1717666015081)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 51b01bf947ea4ae4be023ec9d9a68244
++timeCreated: 1717666015
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/Player.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Player.cs b/Assets/Scripts/Enitities/Player.cs
+new file mode 100644
+--- /dev/null	(date 1717669158070)
++++ b/Assets/Scripts/Enitities/Player.cs	(date 1717669158070)
+@@ -0,0 +1,29 @@
++using System.Collections.Generic;
++using UnityEngine;
++
++namespace Enitities
++{
++    // several base blocks in one player
++    public class Player : MonoBehaviour
++    {
++        public List<Block> UserInitBlocks;
++        public List<Entity> Collected;
++
++        //center is 0,0
++        public int[,] position = new int[50, 50];
++
++        public float Health;
++        public int Money;
++
++        void Start()
++        {
++            GameState.Player = this;
++        }
++
++        // Update is called once per frame
++        void Update()
++        {
++            GameState.IsCollecting = Input.GetKeyDown("space");
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scenes/SampleScene.unity
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!29 &1\r\nOcclusionCullingSettings:\r\n  m_ObjectHideFlags: 0\r\n  serializedVersion: 2\r\n  m_OcclusionBakeSettings:\r\n    smallestOccluder: 5\r\n    smallestHole: 0.25\r\n    backfaceThreshold: 100\r\n  m_SceneGUID: 00000000000000000000000000000000\r\n  m_OcclusionCullingData: {fileID: 0}\r\n--- !u!104 &2\r\nRenderSettings:\r\n  m_ObjectHideFlags: 0\r\n  serializedVersion: 9\r\n  m_Fog: 0\r\n  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}\r\n  m_FogMode: 3\r\n  m_FogDensity: 0.01\r\n  m_LinearFogStart: 0\r\n  m_LinearFogEnd: 300\r\n  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}\r\n  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}\r\n  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}\r\n  m_AmbientIntensity: 1\r\n  m_AmbientMode: 3\r\n  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}\r\n  m_SkyboxMaterial: {fileID: 0}\r\n  m_HaloStrength: 0.5\r\n  m_FlareStrength: 1\r\n  m_FlareFadeSpeed: 3\r\n  m_HaloTexture: {fileID: 0}\r\n  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}\r\n  m_DefaultReflectionMode: 0\r\n  m_DefaultReflectionResolution: 128\r\n  m_ReflectionBounces: 1\r\n  m_ReflectionIntensity: 1\r\n  m_CustomReflection: {fileID: 0}\r\n  m_Sun: {fileID: 0}\r\n  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}\r\n  m_UseRadianceAmbientProbe: 0\r\n--- !u!157 &3\r\nLightmapSettings:\r\n  m_ObjectHideFlags: 0\r\n  serializedVersion: 12\r\n  m_GIWorkflowMode: 1\r\n  m_GISettings:\r\n    serializedVersion: 2\r\n    m_BounceScale: 1\r\n    m_IndirectOutputScale: 1\r\n    m_AlbedoBoost: 1\r\n    m_EnvironmentLightingMode: 0\r\n    m_EnableBakedLightmaps: 0\r\n    m_EnableRealtimeLightmaps: 0\r\n  m_LightmapEditorSettings:\r\n    serializedVersion: 12\r\n    m_Resolution: 2\r\n    m_BakeResolution: 40\r\n    m_AtlasSize: 1024\r\n    m_AO: 0\r\n    m_AOMaxDistance: 1\r\n    m_CompAOExponent: 1\r\n    m_CompAOExponentDirect: 0\r\n    m_ExtractAmbientOcclusion: 0\r\n    m_Padding: 2\r\n    m_LightmapParameters: {fileID: 0}\r\n    m_LightmapsBakeMode: 1\r\n    m_TextureCompression: 1\r\n    m_FinalGather: 0\r\n    m_FinalGatherFiltering: 1\r\n    m_FinalGatherRayCount: 256\r\n    m_ReflectionCompression: 2\r\n    m_MixedBakeMode: 2\r\n    m_BakeBackend: 0\r\n    m_PVRSampling: 1\r\n    m_PVRDirectSampleCount: 32\r\n    m_PVRSampleCount: 500\r\n    m_PVRBounces: 2\r\n    m_PVREnvironmentSampleCount: 500\r\n    m_PVREnvironmentReferencePointCount: 2048\r\n    m_PVRFilteringMode: 2\r\n    m_PVRDenoiserTypeDirect: 0\r\n    m_PVRDenoiserTypeIndirect: 0\r\n    m_PVRDenoiserTypeAO: 0\r\n    m_PVRFilterTypeDirect: 0\r\n    m_PVRFilterTypeIndirect: 0\r\n    m_PVRFilterTypeAO: 0\r\n    m_PVREnvironmentMIS: 0\r\n    m_PVRCulling: 1\r\n    m_PVRFilteringGaussRadiusDirect: 1\r\n    m_PVRFilteringGaussRadiusIndirect: 5\r\n    m_PVRFilteringGaussRadiusAO: 2\r\n    m_PVRFilteringAtrousPositionSigmaDirect: 0.5\r\n    m_PVRFilteringAtrousPositionSigmaIndirect: 2\r\n    m_PVRFilteringAtrousPositionSigmaAO: 1\r\n    m_ExportTrainingData: 0\r\n    m_TrainingDataDestination: TrainingData\r\n    m_LightProbeSampleCountMultiplier: 4\r\n  m_LightingDataAsset: {fileID: 0}\r\n  m_LightingSettings: {fileID: 0}\r\n--- !u!196 &4\r\nNavMeshSettings:\r\n  serializedVersion: 2\r\n  m_ObjectHideFlags: 0\r\n  m_BuildSettings:\r\n    serializedVersion: 2\r\n    agentTypeID: 0\r\n    agentRadius: 0.5\r\n    agentHeight: 2\r\n    agentSlope: 45\r\n    agentClimb: 0.4\r\n    ledgeDropHeight: 0\r\n    maxJumpAcrossDistance: 0\r\n    minRegionArea: 2\r\n    manualCellSize: 0\r\n    cellSize: 0.16666667\r\n    manualTileSize: 0\r\n    tileSize: 256\r\n    accuratePlacement: 0\r\n    maxJobWorkers: 0\r\n    preserveTilesOutsideBounds: 0\r\n    debug:\r\n      m_Flags: 0\r\n  m_NavMeshData: {fileID: 0}\r\n--- !u!1 &519420028\r\nGameObject:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  serializedVersion: 6\r\n  m_Component:\r\n  - component: {fileID: 519420032}\r\n  - component: {fileID: 519420031}\r\n  - component: {fileID: 519420029}\r\n  m_Layer: 0\r\n  m_Name: Main Camera\r\n  m_TagString: MainCamera\r\n  m_Icon: {fileID: 0}\r\n  m_NavMeshLayer: 0\r\n  m_StaticEditorFlags: 0\r\n  m_IsActive: 1\r\n--- !u!81 &519420029\r\nAudioListener:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 519420028}\r\n  m_Enabled: 1\r\n--- !u!20 &519420031\r\nCamera:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 519420028}\r\n  m_Enabled: 1\r\n  serializedVersion: 2\r\n  m_ClearFlags: 2\r\n  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}\r\n  m_projectionMatrixMode: 1\r\n  m_GateFitMode: 2\r\n  m_FOVAxisMode: 0\r\n  m_SensorSize: {x: 36, y: 24}\r\n  m_LensShift: {x: 0, y: 0}\r\n  m_FocalLength: 50\r\n  m_NormalizedViewPortRect:\r\n    serializedVersion: 2\r\n    x: 0\r\n    y: 0\r\n    width: 1\r\n    height: 1\r\n  near clip plane: 0.3\r\n  far clip plane: 1000\r\n  field of view: 60\r\n  orthographic: 1\r\n  orthographic size: 5\r\n  m_Depth: -1\r\n  m_CullingMask:\r\n    serializedVersion: 2\r\n    m_Bits: 4294967295\r\n  m_RenderingPath: -1\r\n  m_TargetTexture: {fileID: 0}\r\n  m_TargetDisplay: 0\r\n  m_TargetEye: 0\r\n  m_HDR: 1\r\n  m_AllowMSAA: 0\r\n  m_AllowDynamicResolution: 0\r\n  m_ForceIntoRT: 0\r\n  m_OcclusionCulling: 0\r\n  m_StereoConvergence: 10\r\n  m_StereoSeparation: 0.022\r\n--- !u!4 &519420032\r\nTransform:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 519420028}\r\n  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}\r\n  m_LocalPosition: {x: 0, y: 0, z: -10}\r\n  m_LocalScale: {x: 1, y: 1, z: 1}\r\n  m_Children: []\r\n  m_Father: {fileID: 0}\r\n  m_RootOrder: 0\r\n  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scenes/SampleScene.unity b/Assets/Scenes/SampleScene.unity
+--- a/Assets/Scenes/SampleScene.unity	(revision 89afd2e2d582ad86a8f96e01e828bc66410a5d93)
++++ b/Assets/Scenes/SampleScene.unity	(date 1717668494576)
+@@ -104,7 +104,7 @@
+   serializedVersion: 2
+   m_ObjectHideFlags: 0
+   m_BuildSettings:
+-    serializedVersion: 2
++    serializedVersion: 3
+     agentTypeID: 0
+     agentRadius: 0.5
+     agentHeight: 2
+@@ -117,12 +117,208 @@
+     cellSize: 0.16666667
+     manualTileSize: 0
+     tileSize: 256
+-    accuratePlacement: 0
++    buildHeightMesh: 0
+     maxJobWorkers: 0
+     preserveTilesOutsideBounds: 0
+     debug:
+       m_Flags: 0
+   m_NavMeshData: {fileID: 0}
++--- !u!1 &437978201
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 437978202}
++  - component: {fileID: 437978203}
++  m_Layer: 0
++  m_Name: PlayerBlock
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &437978202
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 437978201}
++  serializedVersion: 2
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 1, y: 1, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 1626201105}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &437978203
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 437978201}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!1 &474757078
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 474757079}
++  - component: {fileID: 474757080}
++  - component: {fileID: 474757082}
++  - component: {fileID: 474757081}
++  m_Layer: 0
++  m_Name: PlayerBlock
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &474757079
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 474757078}
++  serializedVersion: 2
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 1626201105}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &474757080
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 474757078}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!114 &474757081
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 474757078}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: f1f8e45088944000b3fba194d8aa3386, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  type: 0
++--- !u!114 &474757082
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 474757078}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 2524372bdd4e4711bd5f1a8c49700171, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  Property: {fileID: 474757081}
+ --- !u!1 &519420028
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -163,9 +359,17 @@
+   m_projectionMatrixMode: 1
+   m_GateFitMode: 2
+   m_FOVAxisMode: 0
++  m_Iso: 200
++  m_ShutterSpeed: 0.005
++  m_Aperture: 16
++  m_FocusDistance: 10
++  m_FocalLength: 50
++  m_BladeCount: 5
++  m_Curvature: {x: 2, y: 11}
++  m_BarrelClipping: 0.25
++  m_Anamorphism: 0
+   m_SensorSize: {x: 36, y: 24}
+   m_LensShift: {x: 0, y: 0}
+-  m_FocalLength: 50
+   m_NormalizedViewPortRect:
+     serializedVersion: 2
+     x: 0
+@@ -199,10 +403,358 @@
+   m_PrefabInstance: {fileID: 0}
+   m_PrefabAsset: {fileID: 0}
+   m_GameObject: {fileID: 519420028}
++  serializedVersion: 2
+   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+   m_LocalPosition: {x: 0, y: 0, z: -10}
+   m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children:
++  - {fileID: 1626201105}
++  - {fileID: 726137315}
++  m_Father: {fileID: 0}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!1 &726137314
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 726137315}
++  - component: {fileID: 726137316}
++  m_Layer: 0
++  m_Name: PlayerBlock (1)
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &726137315
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 726137314}
++  serializedVersion: 2
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 10}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
+   m_Children: []
+-  m_Father: {fileID: 0}
+-  m_RootOrder: 0
++  m_Father: {fileID: 519420032}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &726137316
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 726137314}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!1 &1626201104
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 1626201105}
++  - component: {fileID: 1626201106}
++  m_Layer: 0
++  m_Name: Player
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &1626201105
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1626201104}
++  serializedVersion: 2
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 10}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children:
++  - {fileID: 474757079}
++  - {fileID: 1718962422}
++  - {fileID: 2054201705}
++  - {fileID: 437978202}
++  m_Father: {fileID: 519420032}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &1626201106
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1626201104}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!1 &1718962421
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 1718962422}
++  - component: {fileID: 1718962423}
++  m_Layer: 0
++  m_Name: PlayerBlock
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &1718962422
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1718962421}
++  serializedVersion: 2
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 1, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 1626201105}
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &1718962423
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1718962421}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!1 &2054201704
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 2054201705}
++  - component: {fileID: 2054201706}
++  m_Layer: 0
++  m_Name: PlayerBlock
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &2054201705
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2054201704}
++  serializedVersion: 2
++  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
++  m_LocalPosition: {x: 0, y: 1, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 1626201105}
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!212 &2054201706
++SpriteRenderer:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 2054201704}
++  m_Enabled: 1
++  m_CastShadows: 0
++  m_ReceiveShadows: 0
++  m_DynamicOccludee: 1
++  m_StaticShadowCaster: 0
++  m_MotionVectors: 1
++  m_LightProbeUsage: 1
++  m_ReflectionProbeUsage: 1
++  m_RayTracingMode: 0
++  m_RayTraceProcedural: 0
++  m_RenderingLayerMask: 1
++  m_RendererPriority: 0
++  m_Materials:
++  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
++  m_StaticBatchInfo:
++    firstSubMesh: 0
++    subMeshCount: 0
++  m_StaticBatchRoot: {fileID: 0}
++  m_ProbeAnchor: {fileID: 0}
++  m_LightProbeVolumeOverride: {fileID: 0}
++  m_ScaleInLightmap: 1
++  m_ReceiveGI: 1
++  m_PreserveUVs: 0
++  m_IgnoreNormalsForChartDetection: 0
++  m_ImportantGI: 0
++  m_StitchLightmapSeams: 1
++  m_SelectedEditorRenderState: 0
++  m_MinimumChartSize: 4
++  m_AutoUVMaxDistance: 0.5
++  m_AutoUVMaxAngle: 89
++  m_LightmapParameters: {fileID: 0}
++  m_SortingLayerID: 0
++  m_SortingLayer: 0
++  m_SortingOrder: 0
++  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
++  m_Color: {r: 1, g: 1, b: 1, a: 1}
++  m_FlipX: 0
++  m_FlipY: 0
++  m_DrawMode: 0
++  m_Size: {x: 1, y: 1}
++  m_AdaptiveModeThreshold: 0.5
++  m_SpriteTileMode: 0
++  m_WasSpriteAssigned: 1
++  m_MaskInteraction: 0
++  m_SpriteSortPoint: 0
++--- !u!1660057539 &9223372036854775807
++SceneRoots:
++  m_ObjectHideFlags: 0
++  m_Roots:
++  - {fileID: 519420032}
+Index: Assets/Scripts/Enitities/BlockProperty.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/BlockProperty.cs b/Assets/Scripts/Enitities/BlockProperty.cs
+new file mode 100644
+--- /dev/null	(date 1717668575524)
++++ b/Assets/Scripts/Enitities/BlockProperty.cs	(date 1717668575524)
+@@ -0,0 +1,9 @@
++using UnityEngine;
++
++namespace Enitities
++{
++    public class BlockProperty : MonoBehaviour
++    {
++        public int type;
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/BlockType.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/BlockType.cs b/Assets/Scripts/Enitities/BlockType.cs
+new file mode 100644
+--- /dev/null	(date 1717668561442)
++++ b/Assets/Scripts/Enitities/BlockType.cs	(date 1717668561442)
+@@ -0,0 +1,11 @@
++using System;
++
++namespace Enitities
++{
++    [Serializable]
++    public enum BlockType
++    {
++        None,
++        swrgre,
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Main.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.Collections;\r\nusing System.Collections.Generic;\r\nusing UnityEngine;\r\n\r\npublic class Main : MonoBehaviour\r\n{\r\n    // Start is called before the first frame update\r\n    void Start()\r\n    {\r\n        \r\n    }\r\n\r\n    // Update is called once per frame\r\n    void Update()\r\n    {\r\n        \r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Main.cs b/Assets/Scripts/Main.cs
+--- a/Assets/Scripts/Main.cs	(revision 89afd2e2d582ad86a8f96e01e828bc66410a5d93)
++++ b/Assets/Scripts/Main.cs	(date 1717665686397)
+@@ -1,5 +1,3 @@
+-using System.Collections;
+-using System.Collections.Generic;
+ using UnityEngine;
+ 
+ public class Main : MonoBehaviour
+@@ -7,12 +5,10 @@
+     // Start is called before the first frame update
+     void Start()
+     {
+-        
+     }
+ 
+     // Update is called once per frame
+     void Update()
+     {
+-        
+     }
+-}
++}
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/Entity.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Entity.cs.meta b/Assets/Scripts/Enitities/Entity.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717668656466)
++++ b/Assets/Scripts/Enitities/Entity.cs.meta	(date 1717668656466)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 077bf41ea28c444caacb86aabe59820f
++timeCreated: 1717668656
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/Entity.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Entity.cs b/Assets/Scripts/Enitities/Entity.cs
+new file mode 100644
+--- /dev/null	(date 1717669519954)
++++ b/Assets/Scripts/Enitities/Entity.cs	(date 1717669519954)
+@@ -0,0 +1,56 @@
++using System.Collections;
++using System.Collections.Generic;
++using UnityEngine;
++
++namespace Enitities
++{
++    public class Entity : MonoBehaviour
++    {
++        public List<Block> Blocks;
++        private static float RespawnTime = 5;
++        private Vector2 SpawnPoint;
++        public bool isDestroyed;
++        public bool isObtained;
++
++        void Start()
++        {
++            SpawnPoint = gameObject.transform.position;
++            foreach (var block in Blocks)
++            {
++                block.Destroyed += Destroy;
++                block.Obtained += Obtain;
++            }
++        }
++
++        private void Destroy()
++        {
++            if (isDestroyed) return;
++            isDestroyed = true;
++            gameObject.SetActive(false);
++            if (isObtained)
++                
++                GameState.Player.Collected.Remove(this);
++            StartCoroutine(RespawnBlock());
++        }
++
++        private void Obtain(List<Vector3> vector3s)
++        {
++            if (isObtained) return;
++            isObtained = true;
++
++            foreach (var block in Blocks)
++                block.tag = "ObtainedBlock";
++
++            GameState.Player.Collected.Add(this);
++        }
++
++        public IEnumerator RespawnBlock()
++        {
++            yield return new WaitForSeconds(RespawnTime);
++            gameObject.SetActive(true);
++            gameObject.transform.position = new Vector3(SpawnPoint.x, SpawnPoint.y, 0);
++            foreach (var block in Blocks)
++                block.tag = "FreeBlock";
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Enitities.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities.meta b/Assets/Scripts/Enitities.meta
+new file mode 100644
+--- /dev/null	(date 1717664168809)
++++ b/Assets/Scripts/Enitities.meta	(date 1717664168809)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: e964ed3e5be244e68f8a3d740bafc593
++timeCreated: 1717664168
+\ No newline at end of file
+Index: ProjectSettings/TagManager.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!78 &1\r\nTagManager:\r\n  serializedVersion: 2\r\n  tags: []\r\n  layers:\r\n  - Default\r\n  - TransparentFX\r\n  - Ignore Raycast\r\n  - \r\n  - Water\r\n  - UI\r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  - \r\n  m_SortingLayers:\r\n  - name: Default\r\n    uniqueID: 0\r\n    locked: 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/TagManager.asset b/ProjectSettings/TagManager.asset
+--- a/ProjectSettings/TagManager.asset	(revision 89afd2e2d582ad86a8f96e01e828bc66410a5d93)
++++ b/ProjectSettings/TagManager.asset	(date 1717666574699)
+@@ -3,7 +3,15 @@
+ --- !u!78 &1
+ TagManager:
+   serializedVersion: 2
+-  tags: []
++  tags:
++  - UserBlock
++  - FreeBlock
++  - ObtainedBlock
++  - Enemy
++  - Coin
++  - Wall
++  - FreeEntity
++  - CollectedEntity
+   layers:
+   - Default
+   - TransparentFX
+Index: Assets/Scripts/Enitities/Player.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Player.cs.meta b/Assets/Scripts/Enitities/Player.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717666015089)
++++ b/Assets/Scripts/Enitities/Player.cs.meta	(date 1717666015089)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 105b65b3602146babe9699dcada561d1
++timeCreated: 1717666015
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/BlockProperty.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/BlockProperty.cs.meta b/Assets/Scripts/Enitities/BlockProperty.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717666015085)
++++ b/Assets/Scripts/Enitities/BlockProperty.cs.meta	(date 1717666015085)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: f1f8e45088944000b3fba194d8aa3386
++timeCreated: 1717666015
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/Block.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Block.cs.meta b/Assets/Scripts/Enitities/Block.cs.meta
+new file mode 100644
+--- /dev/null	(date 1717664187631)
++++ b/Assets/Scripts/Enitities/Block.cs.meta	(date 1717664187631)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 2524372bdd4e4711bd5f1a8c49700171
++timeCreated: 1717664187
+\ No newline at end of file
+Index: Assets/Scripts/Enitities/Block.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Enitities/Block.cs b/Assets/Scripts/Enitities/Block.cs
+new file mode 100644
+--- /dev/null	(date 1717670115673)
++++ b/Assets/Scripts/Enitities/Block.cs	(date 1717670115673)
+@@ -0,0 +1,78 @@
++using System;
++using System.Collections;
++using System.Collections.Generic;
++using System.Linq;
++using UnityEngine;
++
++namespace Enitities
++{
++    // tags: UserBlock, ObtainedBlock, FreeBlock
++    public class Block : MonoBehaviour
++    {
++        public BlockProperty Property;
++
++        bool isCurrentlyColliding;
++        private float collectingTime;
++        private Collision currentCollision;
++        public Action Destroyed;
++        public Action<List<Vector3>> Obtained;
++
++        void OnCollisionEnter(Collision collision)
++        {
++            currentCollision = collision;
++            isCurrentlyColliding = true;
++            if (collision.gameObject.CompareTag("Wall") || (collision.gameObject.CompareTag("Enemy") &&
++                                                            !collision.gameObject.CompareTag("FreeBlock")))
++                Destroyed?.Invoke();
++
++
++            if (gameObject.CompareTag("FreeBlock"))
++            {
++                if (collision.gameObject.CompareTag("ObtainedBlock") || collision.gameObject.CompareTag("UserBlock"))
++                {
++                    //Collectors mode on 
++                    if (Input.GetKeyDown("space"))
++                    {
++                        GameState.IsCollecting = true;
++                        collectingTime = Time.time;
++
++                        if (collectingTime == 0)
++                            Debug.Log("Collecting started");
++
++                        collectingTime = Time.time;
++                        if (Math.Abs(Time.time - collectingTime - 100) < 0.01)
++                        {
++                            Obtained?.Invoke(collision.contacts.Select(x => x.point).ToList());
++                            Debug.Log("Collecting finished");
++                        }
++                    }
++                    else //pushing block away
++                    {
++                        // Calculate Angle Between the collision point and the player
++                        var dir = collision.contacts[0].point - transform.position;
++                        // We then get the opposite (-Vector3) and normalize it
++                        dir = -dir.normalized;
++                        // And finally we add force in the direction of dir and multiply it by force. 
++                        // This will push back the block
++                        gameObject.GetComponent<Rigidbody>().AddForce(dir * 3);
++                        Debug.Log("FreeBlock pushed");
++                    }
++                }
++            }
++        }
++
++        void OnCollisionExit(Collision collision)
++        {
++            isCurrentlyColliding = false;
++
++            if (currentCollision == collision &&
++                (gameObject.CompareTag("ObtainedBlock") || gameObject.CompareTag("UserBlock")))
++            {
++                collectingTime = 0;
++                Debug.Log("Collecting refreshed");
++            }
++
++            currentCollision = null;
++        }
++    }
++}
+\ No newline at end of file
