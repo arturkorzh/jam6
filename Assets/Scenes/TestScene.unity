@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731715, g: 0.13414735, b: 0.121078536, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 1056996268}
   - component: {fileID: 1056996267}
   - component: {fileID: 1056996266}
+  - component: {fileID: 1056996269}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -244,8 +245,36 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1680378571}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1056996269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056996265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676ec8873b3d2bc4d80966de5c9b2146, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1680378571}
+  dampTime: 0.35
+  followType: 1
+  cameraCenterX: 0.5
+  cameraCenterY: 0.5
+  boundType: 0
+  leftBound: 0
+  rightBound: 0
+  upperBound: 0
+  lowerBound: 0
+  deadZoneType: 0
+  hardDeadZone: 0
+  leftDeadBound: 0
+  rightDeadBound: 0
+  upperDeadBound: 0
+  lowerDeadBound: 0
 --- !u!1 &1111950468
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +513,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1056996268}
   - {fileID: 1576402388}
   - {fileID: 960288113}
   - {fileID: 1640193801}
@@ -505,6 +533,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Elements:
   - {fileID: 1680378574}
+  BlockType: 1
+  BuffType: 1
 --- !u!114 &1680378573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,6 +1019,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1739883033}
+  - {fileID: 1056996268}
   - {fileID: 1680378571}
   - {fileID: 7717339695606740458}
   - {fileID: 1687030332}
