@@ -70,7 +70,7 @@ public class JoinableView : MonoBehaviour
   public void JoinToPlayer((JoinableElementView Element, JoinableElementView PlayerElement) closestPair)
   {
     _needRemoveBody = true;
-    gameObject.layer = LayerMask.NameToLayer("Player");
+    gameObject.layer = LayerMasks.Player;
     
     foreach (var newElement in Elements)
       newElement.JoinToPlayer();

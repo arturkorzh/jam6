@@ -120,6 +120,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051414740211634392}
   - component: {fileID: 7164711581817571586}
+  - component: {fileID: 7175534161646851622}
   m_Layer: 10
   m_Name: PricleTrigger
   m_TagString: Untagged
@@ -187,6 +188,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.034629345, y: 0.54945517}
   m_EdgeRadius: 0
+--- !u!114 &7175534161646851622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7923866644449200405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bad89dce8c4b5cb43a48b9be942b714a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2306338595301222626
 PrefabInstance:
   m_ObjectHideFlags: 0
