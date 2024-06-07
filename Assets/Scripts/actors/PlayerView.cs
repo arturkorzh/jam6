@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class PlayerView : MonoBehaviour
 {
   public static PlayerView Instance;
   
-  [SerializeField] private JoinableView _joinable;
+  [FormerlySerializedAs("_joinable")]
+  public JoinableView Joinable;
 
   private void Awake()
   {
@@ -23,14 +25,14 @@ public class PlayerView : MonoBehaviour
 
   private void ApplyDamage(JoinableView toRemove)
   {
-    if (toRemove == _joinable)
+    if (toRemove == Joinable)
     {
       EventManager.Lose();
       return;
     }
 
     foreach (var removeElement in toRemove.Elements)
-      _joinable.Elements.Remove(removeElement);
+      Joinable.Elements.Remove(removeElement);
     
     Destroy(toRemove.gameObject);
   }

@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 5367585445875180607}
   - component: {fileID: 2872232333989707189}
   - component: {fileID: 3094037841018774011}
-  - component: {fileID: 4994770287911863639}
   - component: {fileID: 2497993040434536312}
   - component: {fileID: 3496266928971023429}
   - component: {fileID: 190774465304403758}
+  - component: {fileID: 6843821294695663502}
   m_Layer: 8
   m_Name: JoinableG
   m_TagString: Untagged
@@ -114,22 +114,6 @@ MonoBehaviour:
   - {fileID: 7149220624200573080}
   BlockType: 1
   BuffType: 1
---- !u!208 &4994770287911863639
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140623268119144880}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
-  m_MoveThreshold: 0.1
-  m_Carve: 1
-  m_CarveOnlyStationary: 0
-  m_Center: {x: 0, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!50 &2497993040434536312
 Rigidbody2D:
   serializedVersion: 4
@@ -247,6 +231,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.98190403, y: 1.03857}
   m_EdgeRadius: 0
+--- !u!114 &6843821294695663502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140623268119144880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183748dd497aa473a98ff0cd8cb67fc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1
+  uniqueID: 8684981716242199349
+  updateError: 1
+  checkTime: 0.05
 --- !u!1 &5907176952901314876
 GameObject:
   m_ObjectHideFlags: 0
