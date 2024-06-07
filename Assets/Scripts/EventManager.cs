@@ -6,7 +6,8 @@ public static class EventManager
     public static event Action<JoinableView> OnPlayerGetDamage;
     public static event Action OnLose;
     public static event Action OnWin;
-  public static event Action<GameObject> OnItemCollected;
+    public static event Action<GameObject> OnItemCollected;
+    public static event Action<GameObject> OnEnemyDied;
 
   public static void AddPlayerDamage(JoinableView viewToRemove)
   {
@@ -26,5 +27,10 @@ public static class EventManager
   public static void ItemCollected(GameObject item)
   {
     OnItemCollected?.Invoke(item);
+  }
+  
+  public static void EnemyDied(GameObject item)
+  {
+    OnEnemyDied?.Invoke(item);
   }
 }

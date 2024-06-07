@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Numerics;
 using UnityEngine;
-using Vector3 = UnityEngine.Vector3;
 
 public class SpawnPoint : MonoBehaviour
 {
@@ -11,20 +9,25 @@ public class SpawnPoint : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.OnItemCollected += OnItemCollected;
+        EventManager.OnItemCollected += TrySpawn;
+        EventManager.OnEnemyDied += TrySpawn;
     }
     
     private void OnDisable()
     {
-        EventManager.OnItemCollected -= OnItemCollected;
+        EventManager.OnItemCollected -= TrySpawn;
+        EventManager.OnEnemyDied -= TrySpawn;
+
     }
     
     private void Start()
     {
         _instance ??= Instantiate(_prefab, transform.position, transform.rotation);
+        if (_instance.GetComponent<EnemyFollowerController>() is { } enemy)
+            enemy.SpawnPosition = transform;
     }
 
-    private void OnItemCollected(GameObject go)
+    private void TrySpawn(GameObject go)
     {
         if (_instance != go)
             return;
