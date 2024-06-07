@@ -50,6 +50,7 @@ public class CameraScript : MonoBehaviour
 
     void Start()
     {
+        EventManager.OnItemCollected += OnItemCollected;
         camera = GetComponent<Camera>();
         vertExtent = camera.orthographicSize;
         horzExtent = vertExtent * Screen.width / Screen.height;
@@ -65,6 +66,11 @@ public class CameraScript : MonoBehaviour
         isDeadZoneHorizontal = ((deadZoneType & Direction.Horizontal) == Direction.Horizontal) && isFollowHorizontal;
         isDeadZoneVertical = ((deadZoneType & Direction.Vertical) == Direction.Vertical) && isFollowVertical;
         tempVec = Vector3.one;
+    }
+
+    void OnItemCollected(GameObject o)
+    {
+        
     }
 
     void LateUpdate()
