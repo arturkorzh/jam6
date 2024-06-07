@@ -153,8 +153,11 @@ public class GameManager : MonoBehaviour
 
     private void ModifyBullets(bool b)
     {
+        if (bulletsController == null) return;
         if (b)
+        {
             bulletsController.bulletsAmount++;
+        }
         else
             bulletsController.bulletsAmount--;
     }

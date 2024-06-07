@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  uniqueID: 8684981716242199349
+  uniqueID: 8061151022542670284
   updateError: 1
   checkTime: 0.05
 --- !u!1 &5907176952901314876
@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 5907176952901314876}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
