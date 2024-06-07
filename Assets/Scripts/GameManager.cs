@@ -55,45 +55,13 @@ public class GameManager : MonoBehaviour
         },
     };
 
+    private static int[] _condition = new[] { 24 };
+
     public static int CurrentLevel = 0;
 
-    public static bool CheckWinCondition(List<JoinableElementView> elements, Vector3 actorPosition)
+    public static bool CheckWinCondition()
     {
-        var tem = elements.Select(x => x.transform.InverseTransformPoint(actorPosition));
-
-        var temp = tem.Select(x =>
-            new Point(((int)(x.x * 100 / 7) - 1) / 2,
-                ((int)(x.y * 100 / 7) - 1) / 2)).ToList();
-        var minX = temp.Min(x => x.x);
-        var minY = temp.Min(x => x.y);
-
-        var xSize = temp.Max(x => x.x) - minX + 1;
-        var ySize = temp.Max(x => x.y) - minY + 1;
-
-        var matrix = new int[xSize, ySize];
-
-        foreach (var value in temp)
-        {
-            value.x += minX > 0 ? minX : -minX;
-            value.y += minY > 0 ? minY : -minY;
-        }
-
-        foreach (var vector in temp)
-            matrix[vector.x, vector.y] = 1;
-
-        if (matrix.GetLength(0) != Figures[CurrentLevel].GetLength(0) ||
-            matrix.GetLength(1) != Figures[CurrentLevel].GetLength(1))
-            return false;
-        for (var i = 0; i < matrix.GetLength(0); i++)
-        {
-            for (var j = 0; j < matrix.GetLength(1); j++)
-            {
-                if (matrix[i, j] != Figures[CurrentLevel][i, j])
-                    return false;
-            }
-        }
-
-        return true;
+        return PlayerView.Instance.Joinable.Elements.Count == _condition[CurrentLevel];
     }
 
     public void Exit() => Application.Quit();

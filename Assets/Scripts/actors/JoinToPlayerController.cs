@@ -6,17 +6,20 @@ public class JoinToPlayerController : MonoBehaviour
 
     private const float Threshold = 1.4f;
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == 11) //WinArea
         {
-            if (GameManager.CheckWinCondition(_player.Elements, _player.transform.position))
+            if (GameManager.CheckWinCondition())
             {
                 Debug.Log("Win");
                 EventManager.Win();
             }
         }
+    }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
         if (IsNotJoinable(other.gameObject))
             return;
 
