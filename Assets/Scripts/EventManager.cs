@@ -9,6 +9,7 @@ public static class EventManager
     public static event Action<GameObject> OnItemCollected;
     public static event Action<GameObject> OnEnemyDied;
     public static event Action<bool> OnSpeedModified;
+    public static event Action<bool> OnBulletsModified;
 
     public static void AddPlayerDamage(JoinableView viewToRemove)
     {
@@ -33,6 +34,11 @@ public static class EventManager
     public static void SpeedModified(bool isPositive)
     {
         OnSpeedModified?.Invoke(isPositive);
+    }
+
+    public static void BulletModified(bool isPositive)
+    {
+        OnBulletsModified?.Invoke(isPositive);
     }
 
     public static void EnemyDied(GameObject item)

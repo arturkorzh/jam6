@@ -70,7 +70,6 @@ public class CameraScript : MonoBehaviour
 
     void OnItemCollected(GameObject o)
     {
-        
     }
 
     void LateUpdate()

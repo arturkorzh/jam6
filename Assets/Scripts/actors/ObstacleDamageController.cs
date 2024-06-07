@@ -17,6 +17,7 @@ public class ObstacleDamageController : MonoBehaviour
             }
             case 1:
             {
+                EventManager.BulletModified(false);
                 break;
             }
         }

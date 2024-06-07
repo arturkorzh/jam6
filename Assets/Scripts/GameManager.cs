@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public GameObject LooseOverlay;
     public GameObject CloseAnimation;
     public GameObject Actor;
+    public BulletsController bulletsController;
     public bool IsWin;
     public bool IsLoose;
 
@@ -117,6 +118,7 @@ public class GameManager : MonoBehaviour
         EventManager.OnLose += LoseGame;
         EventManager.OnWin += WinGame;
         EventManager.OnSpeedModified += ModifySpeed;
+        EventManager.OnBulletsModified += ModifyBullets;
     }
 
     private void Start()
@@ -145,5 +147,13 @@ public class GameManager : MonoBehaviour
     private void ModifySpeed(bool b)
     {
         Actor.GetComponent<PlayerMoveController>()._speedCoef += b ? 0.15f : -0.15f;
+    }
+
+    private void ModifyBullets(bool b)
+    {
+        if (b)
+            bulletsController.bulletsAmount++;
+        else
+            bulletsController.bulletsAmount--;
     }
 }

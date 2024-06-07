@@ -88,6 +88,7 @@ public class JoinableView : MonoBehaviour
             }
             case 1:
             {
+                EventManager.BulletModified(true);
                 break;
             }
         }
