@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     public GameObject WinOverlay;
     public GameObject LooseOverlay;
     public GameObject CloseAnimation;
-
+    public GameObject Actor;
     public bool IsWin;
     public bool IsLoose;
 
@@ -116,6 +116,7 @@ public class GameManager : MonoBehaviour
     {
         EventManager.OnLose += LoseGame;
         EventManager.OnWin += WinGame;
+        EventManager.OnSpeedModified += ModifySpeed;
     }
 
     private void Start()
@@ -139,5 +140,10 @@ public class GameManager : MonoBehaviour
         CloseAnimation.SetActive(true);
         StartCoroutine(MenuScript.DelayRun(1.5f, () => LooseOverlay.SetActive(true)));
         Debug.Log("Lose!");
+    }
+
+    private void ModifySpeed(bool b)
+    {
+        Actor.GetComponent<PlayerMoveController>()._speedCoef += b ? 0.15f : -0.15f;
     }
 }

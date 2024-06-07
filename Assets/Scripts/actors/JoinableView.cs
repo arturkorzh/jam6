@@ -78,7 +78,20 @@ public class JoinableView : MonoBehaviour
 
         if (_offset.sqrMagnitude < Threshold)
             _offset = CalcOffset(closestPair.Element.Anchores, closestPair.PlayerElement.Anchores);
-        
+
+        switch (BuffType)
+        {
+            case 0:
+            {
+                EventManager.SpeedModified(true);
+                break;
+            }
+            case 1:
+            {
+                break;
+            }
+        }
+
         EventManager.ItemCollected(gameObject);
     }
 

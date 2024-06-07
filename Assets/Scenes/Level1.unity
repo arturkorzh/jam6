@@ -11413,6 +11413,7 @@ MonoBehaviour:
   WinOverlay: {fileID: 1941238441}
   LooseOverlay: {fileID: 585505515}
   CloseAnimation: {fileID: 1033360237}
+  Actor: {fileID: 0}
   IsWin: 0
   IsLoose: 0
 --- !u!4 &1357463570
@@ -14089,7 +14090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!222 &1937036372
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15925,6 +15926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb8d81466277684d9251668bd5aad45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _speedCoef: 5.25
 --- !u!114 &2037790951
 MonoBehaviour:
   m_ObjectHideFlags: 0

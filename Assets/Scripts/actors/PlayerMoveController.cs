@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerMoveController : MonoBehaviour
 {
     private Rigidbody2D _body;
-    private float _speedCoef = 0.75f * 8;
+    public float _speedCoef = 0.75f * 5;
 
     private void Start()
     {
