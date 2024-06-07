@@ -449,7 +449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 816e8d38189bbc944a9dc34a96dd0a33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 39220c2de5787c5429707fe5cbfbadec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -807,11 +807,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4660697830066304660, guid: e9802b9e6e56b404eaf0664f9232cf27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.514887
+      value: -15.7
       objectReference: {fileID: 0}
     - target: {fileID: 4660697830066304660, guid: e9802b9e6e56b404eaf0664f9232cf27, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.12687
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 4660697830066304660, guid: e9802b9e6e56b404eaf0664f9232cf27, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1005,11 +1005,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5367585445875180607, guid: b2c36ec2bee79e8498c9fb97b71a5ac3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.32
+      value: -7.47
       objectReference: {fileID: 0}
     - target: {fileID: 5367585445875180607, guid: b2c36ec2bee79e8498c9fb97b71a5ac3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.38
+      value: -12.1
       objectReference: {fileID: 0}
     - target: {fileID: 5367585445875180607, guid: b2c36ec2bee79e8498c9fb97b71a5ac3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1474,11 +1474,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4406332181088002965, guid: 4ac3e7005514e5a4681789220a187b29, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.68
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 4406332181088002965, guid: 4ac3e7005514e5a4681789220a187b29, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -14.38
+      value: -11.4
       objectReference: {fileID: 0}
     - target: {fileID: 4406332181088002965, guid: 4ac3e7005514e5a4681789220a187b29, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4365,7 +4365,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!223 &1731746769
 Canvas:
   m_ObjectHideFlags: 0
