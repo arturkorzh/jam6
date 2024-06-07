@@ -55,7 +55,6 @@ public class GameManager : MonoBehaviour
     };
 
     public static int CurrentLevel = 0;
-    public const float CellSize = 0.5f;
 
     public static bool CheckWinCondition(List<JoinableElementView> elements, Vector3 actorPosition)
     {
@@ -96,9 +95,8 @@ public class GameManager : MonoBehaviour
         return true;
     }
 
-    public void Exit()
-    {
-    }
+    public void Exit() => Application.Quit();
+
 
     public void Retry()
     {
