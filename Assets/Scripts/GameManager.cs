@@ -75,8 +75,7 @@ public class GameManager : MonoBehaviour
 
     public void NextLvl()
     {
-        CurrentLevel++;
-        SceneManager.LoadScene($"Level{CurrentLevel}", LoadSceneMode.Single);
+        SceneManager.LoadScene($"Level1", LoadSceneMode.Single);
 
         Debug.Log("New level scene.");
     }
