@@ -146,7 +146,9 @@ public class GameManager : MonoBehaviour
 
     private void ModifySpeed(bool b)
     {
-        Actor.GetComponent<PlayerMoveController>()._speedCoef += b ? 0.15f : -0.15f;
+        if (Actor == null) return;
+        var coef = Actor.GetComponent<PlayerMoveController>()._speedCoef;
+        Actor.GetComponent<PlayerMoveController>().SetSpeedCoef(coef + (b ? -0.15f : 0.15f));
     }
 
     private void ModifyBullets(bool b)
