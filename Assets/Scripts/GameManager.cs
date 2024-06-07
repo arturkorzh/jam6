@@ -26,10 +26,23 @@ public class GameManager : MonoBehaviour
 
     public static List<int[,]> Figures = new()
     {
-        new int[2, 2]
+        /* new int[6, 7]
+         {
+             { 0, 0, 0, 0, 1, 0, 0 },
+             { 1, 1, 0, 1, 1, 1, 0 },
+             { 0, 1, 1, 1, 1, 1, 1 },
+             { 0, 1, 1, 1, 1, 1, 1 },
+             { 1, 1, 0, 1, 1, 1, 0 },
+             { 0, 0, 0, 0, 1, 0, 0 },
+         },*/
+        new int[6, 4]
         {
-            { 1, 1 },
-            { 1, 1 },
+            { 0, 1, 0, 0 },
+            { 1, 1, 1, 0 },
+            { 1, 1, 1, 1 },
+            { 1, 1, 1, 1 },
+            { 1, 1, 1, 0 },
+            { 0, 1, 0, 0 },
         },
         new int[5, 5]
         {
@@ -42,13 +55,15 @@ public class GameManager : MonoBehaviour
     };
 
     public static int CurrentLevel = 0;
-    public const float CellSize = 0.15f * 7;
+    public const float CellSize = 0.5f;
 
     public static bool CheckWinCondition(List<JoinableElementView> elements, Vector3 actorPosition)
     {
         var tem = elements.Select(x => x.transform.InverseTransformPoint(actorPosition));
 
-        var temp = tem.Select(x => new Point((int)(x.x / CellSize - 1f), (int)(x.y / CellSize - 1f))).ToList();
+        var temp = tem.Select(x =>
+            new Point(((int)(x.x * 100 / 7) - 1) / 2,
+                ((int)(x.y * 100 / 7) - 1) / 2)).ToList();
         var minX = temp.Min(x => x.x);
         var minY = temp.Min(x => x.y);
 
