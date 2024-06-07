@@ -8,6 +8,15 @@ public class JoinToPlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.layer == 11) //WinArea
+        {
+            if (GameManager.CheckWinCondition(_player.Elements, _player.transform.position))
+            {
+                Debug.Log("Win");
+                EventManager.Win();
+            }
+        }
+
         if (IsNotJoinable(other.gameObject))
             return;
 
