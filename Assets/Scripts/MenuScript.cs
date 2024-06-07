@@ -5,11 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    public GameObject Menu;
+    public GameObject Tutorial;
+
     public GameObject Animation;
 
     // Start is called before the first frame update
     void Start()
     {
+        Menu.SetActive(true);
+        StartCoroutine(DelayRun(3f,
+            () => { Tutorial.SetActive(true); }
+        ));
     }
 
     // Update is called once per frame
@@ -24,7 +31,7 @@ public class MenuScript : MonoBehaviour
 
             Debug.Log("Quit Game.");
         }
-        else if (Input.anyKey)
+        else if (Input.anyKey && Tutorial.activeSelf)
         {
             Animation.SetActive(true);
             StartCoroutine(DelayRun(1.5f, () => SceneManager.LoadScene("Level0", LoadSceneMode.Single)));
