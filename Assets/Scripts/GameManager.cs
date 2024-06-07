@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
         },
     };
 
-    private static int[] _condition = new[] { 24 };
+    private static int[] _condition = new[] {24};
 
     public static int CurrentLevel = 0;
 
