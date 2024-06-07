@@ -2614,6 +2614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231511419}
   - component: {fileID: 231511418}
+  - component: {fileID: 231511420}
   m_Layer: 11
   m_Name: FinishCheck
   m_TagString: Untagged
@@ -2650,7 +2651,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.01196146, y: -0.14353669}
@@ -2681,6 +2682,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &231511420
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231511417}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!4 &239126931 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5645878977254832600, guid: 3f743e6e253a8ac48bb466f8592e9ce6, type: 3}
@@ -5145,6 +5173,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8447690353392686525, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9026804370895308079, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
       propertyPath: m_Name
       value: OpenEyeAnimation
@@ -5335,7 +5367,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 816e8d38189bbc944a9dc34a96dd0a33, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e14ae5b0e9e62204980c3bc6c6b38de7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8015,6 +8047,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1937036374}
     m_Modifications:
+    - target: {fileID: 2015310071565244922, guid: acce75731b93d2a48a195389686cf9b6, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5148419937233211137, guid: acce75731b93d2a48a195389686cf9b6, type: 3}
       propertyPath: m_Name
       value: CloseEyeAnimation
@@ -8642,7 +8678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -13490,9 +13526,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8447690353392686525, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9026804370895308079, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
       propertyPath: m_Name
       value: Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 9026804370895308079, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13879,7 +13923,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -15145,6 +15189,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4054970954020971094, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447690353392686525, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
+      propertyPath: m_RaycastTarget
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9026804370895308079, guid: 009b143f267a1b64a87861da51c6d85d, type: 3}
