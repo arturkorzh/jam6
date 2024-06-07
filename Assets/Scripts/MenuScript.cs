@@ -31,7 +31,7 @@ public class MenuScript : MonoBehaviour
         }
     }
 
-    private IEnumerator DelayRun(float delay, Action action)
+    public static IEnumerator DelayRun(float delay, Action action)
     {
         yield return new WaitForSeconds(delay);
         action.Invoke();

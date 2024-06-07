@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
 {
     public GameObject WinOverlay;
     public GameObject LooseOverlay;
+    public GameObject CloseAnimation;
+
+    public bool IsWin;
+    public bool IsLoose;
 
     private class Point
     {
@@ -20,15 +24,12 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public List<int[,]> Figures = new()
+    public static List<int[,]> Figures = new()
     {
-        new int[5, 5]
+        new int[2, 2]
         {
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
+            { 1, 1 },
+            { 1, 1 },
         },
         new int[5, 5]
         {
@@ -41,13 +42,13 @@ public class GameManager : MonoBehaviour
     };
 
     public static int CurrentLevel = 0;
-    public const float cellSize = 0.15f;
+    public const float CellSize = 0.15f * 7;
 
     public static bool CheckWinCondition(List<JoinableElementView> elements, Vector3 actorPosition)
     {
         var tem = elements.Select(x => x.transform.InverseTransformPoint(actorPosition));
 
-        var temp = tem.Select(x => new Point((int)(x.x / cellSize - 1f), (int)(x.y / cellSize - 1f))).ToList();
+        var temp = tem.Select(x => new Point((int)(x.x / CellSize - 1f), (int)(x.y / CellSize - 1f))).ToList();
         var minX = temp.Min(x => x.x);
         var minY = temp.Min(x => x.y);
 
@@ -64,6 +65,18 @@ public class GameManager : MonoBehaviour
 
         foreach (var vector in temp)
             matrix[vector.x, vector.y] = 1;
+
+        if (matrix.GetLength(0) != Figures[CurrentLevel].GetLength(0) ||
+            matrix.GetLength(1) != Figures[CurrentLevel].GetLength(1))
+            return false;
+        for (var i = 0; i < matrix.GetLength(0); i++)
+        {
+            for (var j = 0; j < matrix.GetLength(1); j++)
+            {
+                if (matrix[i, j] != Figures[CurrentLevel][i, j])
+                    return false;
+            }
+        }
 
         return true;
     }
@@ -99,13 +112,19 @@ public class GameManager : MonoBehaviour
 
     private void WinGame()
     {
-        WinOverlay.SetActive(true);
+        if (IsWin) return;
+        IsWin = true;
+        CloseAnimation.SetActive(true);
+        StartCoroutine(MenuScript.DelayRun(1.5f, () => WinOverlay.SetActive(true)));
         Debug.Log("Win!");
     }
 
     private void LoseGame()
     {
-        LooseOverlay.SetActive(true);
+        if (IsLoose) return;
+        IsLoose = true;
+        CloseAnimation.SetActive(true);
+        StartCoroutine(MenuScript.DelayRun(1.5f, () => LooseOverlay.SetActive(true)));
         Debug.Log("Lose!");
     }
 }
